@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  background-color: #2e2e44;
+}
+
+
+.mlsecond{
+  display: inline-block;
+  font-size: 50px;
+}
+.second{
+  display: inline-block;
+   font-size: 50px;
+}
+.minute{
+  display: inline-block;
+   font-size: 50px;
+}
+.hours{
+  display: inline-block;
+   font-size: 50px;
+}
+.start{
+  width: 50px;
+  height: 20px;
+}
+.pause{
+  width: 50px;
+  height: 20px;
+}
+
+.nametime{
+  display: inline-block;
+}
+.hv{
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  margin-left: 20px;
+  transition: transform 0.5s ease;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  border: 5px solid rgba(26, 182, 221, 0.8);
+  font-weight: 500;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.runtime{
+  text-align: center;
+}
+
+.hv:hover{
+  transform: scale(1.3);
+  /* border: 8px solid rgba(10, 76, 230, 0.8); */
+}
+
+
+.nt{
+  text-align: center;
+  height: 70px;
+}
+.nametime{
+  font-size: 45px;
+  color: rgb(253, 253, 253);
+  font-family: 'Chakra Petch', sans-serif;
+  
+}
+.nt1{
+  transform: translateX(-105px) translateY(-70px);
+}
+.nt2{
+  transform: translateX(-45px) translateY(-70px);
+}
+.nt3{
+  transform: translateX(2px) translateY(-70px);
+}
+
+.button{
+  text-align: center;
+}
+
+.bt{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(94, 72, 109);
+  color: rgba(237, 240, 245, 0.808);
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 9px;
+  transition: border 0.5s ease;
+}
+
+.bt:hover{
+  box-shadow: 0 3px 20px rgba(10, 76, 230, 0.8);
+  border: 2px solid rgba(10, 76, 230, 0.8);
+}
+
+.title{
+  color: #5eacc9;
+  margin-left: 100px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.title:hover{
+  color: #3db9e6;
+}
+
+.abc{
+  width: 300px;
+  height: 40px;
+  color: rgb(132, 224, 224);
+  font-family: 'Alkatra', cursive;
+  font-weight: 600;
+  border: 3px solid rgba(73, 46, 46, 0.795);
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 39%;
+  transition: border 0.5s ease;
+  font-size: 27px;
+}
+.abc:hover{
+  border: 3px solid rgb(26, 186, 226);
+}
+   
+
+/* css cenlendar */
+
+.cenlendar{
+  position: relative;
+    width: 380px;
+    height: 150px;
+    background-color: #15151f;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 50px rgba(10, 76, 230, 0.8);
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+.cenlendar:hover{
+  box-shadow: 0 5px 50px rgba(76, 121, 224, 0.8);
+}
+.time{
+  position: absolute;
+   font-size: 50px;
+   left: 70px;
+   font-weight: 800;
+   transition: transform 0.5s ease;
+   font-family: 'Poppins', sans-serif;
+   background: -webkit-linear-gradient(90deg, #d1326c, #f08800);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.time:hover{
+  transform: scale(1.2);
+  background: -webkit-linear-gradient(90deg, #ffb960 ,#ff5e9a);
+  -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.year{
+  position: absolute;
+  font-size: 30px;
+  bottom: 80px;
+  left: 90px;
+  transition: transform 0.5s ease;
+ background: -webkit-linear-gradient(90deg, #634dff, #5fd4ff);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+.year:hover{
+  transform: scale(1.2);
+}
+
+.header{
+  font-size: 15px;
+  color: #2cb0b9;
+}
